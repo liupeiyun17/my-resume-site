@@ -199,7 +199,6 @@ h3 {
 .profile-placeholder {
   min-height: 330px;
   border-radius: 28px;
-  /*background: linear-gradient(145deg, #e9f1fc, #d5e5f8);*/
   display: grid;
   place-items: center;
   color: var(--navy);
@@ -335,14 +334,7 @@ h3 {
   gap: 20px;
 }
 
-/*
-.card {
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  padding: 24px;
-  box-shadow: 0 5px 18px rgba(25, 55, 95, .025);
-}*/
+
 .card {
   background: #ffffff;
   border: 1px solid var(--line);
@@ -1106,6 +1098,20 @@ textarea {
   font-size: .9rem;
   font-weight: 700;
   margin-top: auto;
+}
+
+/* Let's Connect Tag */
+.contact-tag {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #D6F36A;
+  color: black;
+  border: 1px solid #3B5368;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
